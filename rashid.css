@@ -1,0 +1,66 @@
+#hero{
+    background-image: url(./image.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.mg{
+    margin-top: 207px;
+width: 100%;
+    
+    
+}
+.ui{
+    font-size: 53px;
+    overflow: hidden;
+}
+.hide-btn{
+    opacity: 0;
+    transition: 0s;
+}
+.show-btn:hover .hide-btn{
+    opacity: 1;
+    transition: 2s;
+}
+
+.show-btn:hover{
+    box-shadow: 1px 1px 3px gray;
+    transform: scale(1.05);
+}
+.show{
+    opacity: 0;
+    transition: 0s;
+}
+.car:hover .show{
+    opacity: 1;
+    transform: 1s;
+}
+.car:hover{
+    box-shadow: 1px 1px 3px gray;
+    transform: scale(1.05);
+}
+.cols:hover{
+    color:slategrey;
+}
+ .shows{
+    opacity: 0;
+    transition: 3s;
+}
+.shad:hover .shows{
+    opacity: 1;
+}
+.bg-last{
+    background-color: #f2f2f2;
+}
+.yj{
+    width: 250px;
+    border-radius: 0px;
+}
+.btn-red{
+    background-color: red;
+    border-radius: 0px;
+    color: white;
+}
+
+.ico:hover{
+    color: red;
+}
