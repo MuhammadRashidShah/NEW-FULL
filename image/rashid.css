@@ -1,5 +1,5 @@
 #hero{
-    background-image: url(./image/image.png);
+    background-image: url(./image.png);
     background-repeat: no-repeat;
     height: 100vh;
 }
@@ -64,18 +64,3 @@ width: 100%;
 .ico:hover{
     color: red;
 }
-.hide{
-    opacity: 0;
-    transition: 0;
-  }
-  .show-btna:hover .hide{
-      opacity: 1;
-      transition: 2s
-  }
-  .show-btna:hover{
-      box-shadow: 1px 1px 3px gray;
-      transform: scale(1.05);
-  }
-  .shide:hover{
-    color:gray
-  }
